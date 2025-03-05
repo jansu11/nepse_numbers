@@ -1,3 +1,4 @@
+import Accordion from "@/components/Accordion";
 import CaseStudies from "@/components/CaseStudies";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <Services />
       <CaseStudies />
+      <Accordion />
       <Team />
       <Testimonials />
       <Contact />
