@@ -7,7 +7,7 @@ const Services = () => {
     <div className="pt-36">
       <div className="flex items-center gap-10">
         <h2 className="bg-green text-3xl font-bold p-2 rounded-md">Services</h2>
-        <p className="max-w-lg">
+        <p className="max-w-xl">
           At our digital marketing agency, we offer a range of services to help
           businesses grow and succeed online. These services include:
         </p>
