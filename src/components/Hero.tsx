@@ -32,6 +32,7 @@ const Hero = () => {
       <section className="flex justify-between">
         <div>
           <Image
+            className="grayscale"
             src={"/amazon.png"}
             alt="amazon logo"
             width={126}
@@ -40,6 +41,7 @@ const Hero = () => {
         </div>
         <div>
           <Image
+            className="grayscale"
             src={"/dribble.png"}
             alt="dribble logo"
             width={126}
@@ -48,6 +50,7 @@ const Hero = () => {
         </div>
         <div>
           <Image
+            className="grayscale"
             src={"/hubspot.png"}
             alt="hubspot logo"
             width={126}
@@ -56,6 +59,7 @@ const Hero = () => {
         </div>
         <div>
           <Image
+            className="grayscale"
             src={"/notion.png"}
             alt="notion logo"
             width={126}
@@ -64,6 +68,7 @@ const Hero = () => {
         </div>
         <div>
           <Image
+            className="grayscale"
             src={"/netflix.png"}
             alt="netflix logo"
             width={126}
@@ -71,7 +76,13 @@ const Hero = () => {
           />
         </div>
         <div>
-          <Image src={"/zoom.png"} alt="zoom logo" width={126} height={48} />
+          <Image
+            className="grayscale"
+            src={"/zoom.png"}
+            alt="zoom logo"
+            width={126}
+            height={48}
+          />
         </div>
       </section>
     </div>
