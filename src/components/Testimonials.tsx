@@ -8,7 +8,7 @@ const Testimonials = () => {
         <h2 className="bg-green text-3xl font-bold p-2 rounded-md">
           Testimonials
         </h2>
-        <p className="max-w-md">
+        <p className="max-w-lg">
           Hear from Our Satisfied Clients: Read Our Testimonials to Learn More
           about Our Digital Marketing Services
         </p>
