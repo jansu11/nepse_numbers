@@ -52,7 +52,7 @@ const TestimonialsCard = () => {
     },
   };
   return (
-    <div className="mt-16 rounded-[45px] bg-dark py-[60px]">
+    <div className="mt-16 rounded-[45px] bg-dark mx-4 py-10 lg:py-[60px]">
       <Swiper
         modules={[
           Navigation,
@@ -73,16 +73,16 @@ const TestimonialsCard = () => {
       >
         {testimonials.map((testimonial, index) => (
           <SwiperSlide key={index}>
-            <div className="relative px-4 py-12 text-white">
-              <p className="relative text-xl mb-8 leading-relaxed border-green border p-16 rounded-[45px]">
+            <div className="relative px-6 lg:py-12 text-white">
+              <p className="relative mb-8 leading-relaxed border-green border px-6 py-8 lg:p-16 rounded-[45px]">
                 "{testimonial.text}"
-                <span className="absolute -bottom-7 left-28 transform -translate-x-1/2 w-0 h-0 border-t-[30px] border-t-dark border-x-[30px] border-x-transparent z-10"></span>
-                <span className="absolute -bottom-8 left-28 transform -translate-x-1/2 w-0 h-0 border-t-[32px] border-t-green border-x-[30px] border-x-transparent"></span>
+                <span className="absolute -bottom-7 left-20 lg:left-28 transform -translate-x-1/2 w-0 h-0 border-t-[30px] border-t-dark border-x-[30px] border-x-transparent z-10"></span>
+                <span className="absolute -bottom-8 left-20 lg:left-28 transform -translate-x-1/2 w-0 h-0 border-t-[32px] border-t-green border-x-[30px] border-x-transparent"></span>
               </p>
-              <h4 className="font-semibold text-green ml-28 mt-10">
+              <h4 className="font-semibold text-green ml-16 lg:ml-28 mt-10">
                 {testimonial.author}
               </h4>
-              <p className="text-gray-500 text-sm mt-1 ml-28 mb-16">
+              <p className="text-gray-500 text-sm mt-1 ml-16 lg:ml-28 mb-16">
                 {testimonial.role}
               </p>
             </div>
