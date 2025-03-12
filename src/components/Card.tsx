@@ -21,16 +21,16 @@ const Card = ({
 }: CardProps) => {
   return (
     <div
-      className={`flex justify-between gap-4 p-12 rounded-[45px] border border-b-4 max-w-xl ${bgColor}`}
+      className={`grid grid-cols-2 gap-2 px-4 py-12 md:p-12 rounded-[45px] border border-b-4 max-w-xl w-full ${bgColor}`}
     >
-      <div className="flex flex-col justify-between">
-        <h2 className={`text-2xl font-bold leading-7 ${titleColor}`}>
+      <div className="flex flex-col gap-8 justify-between">
+        <h2 className={`text-xl md:text-2xl font-bold leading-7 ${titleColor}`}>
           <span className={`px-2 rounded-md ${titleBgColor}`}>{title1}</span>{" "}
           <br />
           <span className={`px-2 rounded-md ${titleBgColor}`}> {title2}</span>
         </h2>
         <button
-          className={`flex items-center gap-2 ${
+          className={`flex items-center gap-2 justify-self-end ${
             iconColor === "white" ? "text-white" : "text-black"
           }`}
         >
@@ -44,7 +44,7 @@ const Card = ({
               height={30}
             />
           </span>{" "}
-          Learn more
+          <span className="hidden lg:inline-block"> Learn more </span>
         </button>
       </div>
       <div>
