@@ -10,9 +10,9 @@ export default function Accordion() {
   };
 
   return (
-    <section className="pt-36">
-      <div className="flex items-center gap-10">
-        <h2 className="bg-green text-3xl font-bold p-2 rounded-md">
+    <section className="pt-24 sm:pt-36 px-4">
+      <div className="flex flex-col sm:flex-row items-center gap-5 text-center sm:text-start sm:gap-10">
+        <h2 className="bg-green text-3xl font-bold p-2 rounded-sm">
           Our Working Process
         </h2>
         <p className="max-w-xs">
@@ -22,15 +22,20 @@ export default function Accordion() {
       <div
         className={`${
           activeSection === 1 ? "bg-green" : "bg-gray"
-        } border border-b-4 text-black px-[60px] py-10 rounded-[45px] mb-8 mt-16`}
+        } border border-b-4 text-black px-8 sm:px-[60px] py-3 rounded-[45px] mt-4 sm:mt-16`}
       >
         <div
           className="flex justify-between items-center py-7 cursor-pointer"
           onClick={() => toggleSection(1)}
         >
           <h3 className="flex font-medium">
-            <span className="text-6xl mr-6 font-extrabold">01</span>{" "}
-            <span className="text-3xl self-center"> Consultation</span>
+            <span className="text-3xl sm:text-6xl mr-3 sm:mr-6 font-extrabold">
+              01
+            </span>{" "}
+            <span className="text-xl sm:text-3xl self-center">
+              {" "}
+              Consultation
+            </span>
           </h3>
           <div className="flex justify-center items-center text-2xl border rounded-full w-10 h-10 bg-white">
             <span className="text-4xl"> {activeSection === 1 ? "−" : "+"}</span>
@@ -50,15 +55,17 @@ export default function Accordion() {
       <div
         className={`${
           activeSection === 2 ? "bg-green" : "bg-gray"
-        } border border-b-4 text-black px-[60px] py-10 rounded-[45px] mb-8`}
+        } border border-b-4 text-black px-8 sm:px-[60px] py-3 rounded-[45px] mt-4 sm:mt-8`}
       >
         <div
           className="flex justify-between items-center py-7 cursor-pointer"
           onClick={() => toggleSection(2)}
         >
           <h3 className="flex font-medium">
-            <span className="text-6xl mr-6 font-extrabold">02</span>{" "}
-            <span className="text-3xl self-center">
+            <span className="text-3xl sm:text-6xl mr-3 sm:mr-6 font-extrabold">
+              02
+            </span>{" "}
+            <span className="text-xl sm:text-3xl self-center">
               Research and Strategy Development
             </span>
           </h3>
@@ -80,15 +87,19 @@ export default function Accordion() {
       <div
         className={`${
           activeSection === 3 ? "bg-green" : "bg-gray"
-        } border border-b-4 text-black px-[60px] py-10 rounded-[45px] mb-8`}
+        } border border-b-4 text-black px-8 sm:px-[60px] py-3 rounded-[45px] mt-4 sm:mt-8`}
       >
         <div
           className="flex justify-between items-center py-7 cursor-pointer"
           onClick={() => toggleSection(3)}
         >
           <h3 className="flex font-medium">
-            <span className="text-6xl mr-6 font-extrabold">03</span>{" "}
-            <span className="text-3xl self-center">Implementation</span>
+            <span className="text-3xl sm:text-6xl mr-3 sm:mr-6 font-extrabold">
+              03
+            </span>{" "}
+            <span className="text-xl sm:text-3xl self-center">
+              Implementation
+            </span>
           </h3>
           <div className="flex justify-center items-center text-2xl border rounded-full w-10 h-10 bg-white">
             <span className="text-4xl"> {activeSection === 3 ? "−" : "+"}</span>
@@ -107,15 +118,17 @@ export default function Accordion() {
       <div
         className={`${
           activeSection === 4 ? "bg-green" : "bg-gray"
-        } border border-b-4 text-black px-[60px] py-10 rounded-[45px] mb-8`}
+        } border border-b-4 text-black px-8 sm:px-[60px] py-3 rounded-[45px] mt-4 sm:mt-8`}
       >
         <div
           className="flex justify-between items-center py-7 cursor-pointer"
           onClick={() => toggleSection(4)}
         >
           <h3 className="flex font-medium">
-            <span className="text-6xl mr-6 font-extrabold">04</span>{" "}
-            <span className="text-3xl self-center">
+            <span className="text-3xl sm:text-6xl mr-3 sm:mr-6 font-extrabold">
+              04
+            </span>{" "}
+            <span className="text-xl sm:text-3xl self-center">
               Monitoring and Optimization
             </span>
           </h3>
@@ -137,15 +150,17 @@ export default function Accordion() {
       <div
         className={`${
           activeSection === 5 ? "bg-green" : "bg-gray"
-        } border border-b-4 text-black px-[60px] py-10 rounded-[45px] mb-8`}
+        } border border-b-4 text-black px-8 sm:px-[60px] py-3 rounded-[45px] mt-4 sm:mt-8`}
       >
         <div
           className="flex justify-between items-center py-7 cursor-pointer"
           onClick={() => toggleSection(5)}
         >
           <h3 className="flex font-medium">
-            <span className="text-6xl mr-6 font-extrabold">05</span>{" "}
-            <span className="text-3xl self-center">
+            <span className="text-3xl sm:text-6xl mr-3 sm:mr-6 font-extrabold">
+              05
+            </span>{" "}
+            <span className="text-xl sm:text-3xl self-center">
               Reporting and Communication
             </span>
           </h3>
@@ -167,15 +182,19 @@ export default function Accordion() {
       <div
         className={`${
           activeSection === 6 ? "bg-green" : "bg-gray"
-        } border border-b-4 text-black px-[60px] py-10 rounded-[45px] mb-8`}
+        } border border-b-4 text-black px-8 sm:px-[60px] py-3 rounded-[45px] mt-4 sm:mt-8`}
       >
         <div
           className="flex justify-between items-center py-7 cursor-pointer"
           onClick={() => toggleSection(6)}
         >
           <h3 className="flex font-medium">
-            <span className="text-6xl mr-6 font-extrabold">06</span>{" "}
-            <span className="text-3xl self-center">Continual Improvement</span>
+            <span className="text-3xl sm:text-6xl mr-3 sm:mr-6 font-extrabold">
+              06
+            </span>{" "}
+            <span className="text-xl sm:text-3xl self-center">
+              Continual Improvement
+            </span>
           </h3>
           <div className="flex justify-center items-center text-2xl border rounded-full w-10 h-10 bg-white">
             <span className="text-4xl"> {activeSection === 6 ? "−" : "+"}</span>
