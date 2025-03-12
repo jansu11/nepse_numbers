@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const Services = () => {
   return (
-    <div className="pt-36">
-      <div className="flex items-center gap-10">
+    <div className="pt-24 md:pt-36 px-4">
+      <div className="flex flex-col sm:flex-row text-center sm:text-start items-center gap-5 md:gap-10">
         <h2 className="bg-green text-3xl font-bold p-2 rounded-md">Services</h2>
         <p className="max-w-xl">
           At our digital marketing agency, we offer a range of services to help
@@ -13,7 +13,7 @@ const Services = () => {
         </p>
       </div>
       {/* Crads Section */}
-      <div className="grid grid-cols-2 gap-10 pt-16">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 pt-10 lg:pt-16 place-items-center">
         <Card
           title1="Search engine"
           title2="optimization"
@@ -61,7 +61,7 @@ const Services = () => {
       </div>
 
       {/* Proposal section */}
-      <div className="relative flex justify-between items-center p-16 rounded-[45px] bg-gray mt-36">
+      <div className="relative flex justify-between items-center px-8 py-12 md:p-16 rounded-[45px] bg-gray mt-24 lg:mt-36">
         <div className="max-w-md flex flex-col gap-4">
           <h2 className="font-medium text-3xl">
             Let&apos;s make things happen
@@ -70,7 +70,7 @@ const Services = () => {
             Contact us today to learn more about how our digital marketing
             services can help your business grow and succeed online.
           </p>
-          <button className="bg-dark py-5 px-9 text-gray rounded-2xl self-start">
+          <button className="bg-dark py-5 px-5 md:px-9 text-gray rounded-2xl md:self-start">
             Get your free proposal
           </button>
         </div>
@@ -80,7 +80,7 @@ const Services = () => {
             width={350}
             height={200}
             alt="decorative stars"
-            className="absolute -top-6 -bottom-4 right-0 mr-24"
+            className="hidden md:block absolute -top-6 -bottom-4 right-0 mr-24 "
           />
         </div>
       </div>
