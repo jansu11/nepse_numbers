@@ -10,8 +10,8 @@ export interface TeamCardProps {
 
 const TeamCard = ({ imageUrl, name, position, experience }: TeamCardProps) => {
   return (
-    <div className="border border-b-8 border-dark rounded-[45px] px-9 py-10">
-      <div className="border-b-2 pb-7 border-dark/50 flex gap-4 items-end">
+    <div className="border border-b-8 border-dark rounded-[45px] px-5 sm:px-9 py-10">
+      <div className="border-b-2 pb-7 border-dark/50 flex gap-3 md:gap-4 items-end">
         <div>
           <Image
             src={imageUrl}
@@ -21,10 +21,10 @@ const TeamCard = ({ imageUrl, name, position, experience }: TeamCardProps) => {
           />
         </div>
         <div>
-          <p className="font-medium">{name}</p>
-          <p className="text-sm">{position}</p>
+          <p className="font-medium text-base">{name}</p>
+          <p className="text-sm leading-tight">{position}</p>
         </div>
-        <div className="self-start">
+        <div className="self-start justify-self-end ml-auto">
           <Image
             src={"/linkedin-b.png"}
             alt="Linkedin Icon"
