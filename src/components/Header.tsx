@@ -1,4 +1,5 @@
 import React from "react";
+import MobileMenu from "./MobileMenu";
 
 const Header = () => {
   return (
@@ -63,7 +64,7 @@ const Header = () => {
         </a>
       </div>
       <nav>
-        <ul className="flex p-4 gap-x-8 items-center">
+        <ul className="hidden lg:flex p-4 gap-x-1 items-center">
           <li>
             <a
               href="#!"
@@ -112,6 +113,7 @@ const Header = () => {
             </a>
           </li>
         </ul>
+        <MobileMenu />
       </nav>
     </header>
   );
