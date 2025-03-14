@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <div className="px-4">
       <Header />
-      <section className="flex justify-between py-12 pb-10 lg:py-16 just">
-        <article className="flex flex-col items-center">
+      <section className="flex justify-between py-12 pb-10 lg:py-16">
+        <article className="flex flex-col items-center md:items-start">
           <h1 className="font-medium text-4xl/normal md:text-6xl/normal lg:max-w-xl">
             Navigating the digital landscape for success
           </h1>
