@@ -41,7 +41,7 @@ const Hero = () => {
           />
         </div>
       </section>
-      <section className="flex justify-center lg:justify-start flex-wrap gap-x-8 gap-y-3">
+      <section className="flex justify-center lg:justify-between flex-wrap gap-x-8 gap-y-3">
         <div>
           <Image
             className="grayscale w-full h-auto"
