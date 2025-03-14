@@ -80,7 +80,7 @@ const Services = () => {
             width={350}
             height={200}
             alt="decorative stars"
-            className="hidden md:block absolute -top-6 -bottom-4 right-0 mr-24 "
+            className="hidden lg:block absolute -top-6 -bottom-4 right-0 mr-24 w-auto h-auto"
           />
         </div>
       </div>

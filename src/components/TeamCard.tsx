@@ -18,6 +18,7 @@ const TeamCard = ({ imageUrl, name, position, experience }: TeamCardProps) => {
             alt={`Image of ${name}`}
             width={102}
             height={102}
+            className="w-full h-auto"
           />
         </div>
         <div>
@@ -30,6 +31,7 @@ const TeamCard = ({ imageUrl, name, position, experience }: TeamCardProps) => {
             alt="Linkedin Icon"
             width={34}
             height={34}
+            className="w-full h-auto"
           />
         </div>
       </div>

@@ -42,6 +42,7 @@ const Card = ({
               alt="Arrow icon"
               width={30}
               height={30}
+              className="w-full h-auto"
             />
           </span>{" "}
           <span className="hidden lg:inline-block"> Learn more </span>
@@ -52,7 +53,8 @@ const Card = ({
           src={imgUrl}
           alt={`${title1} ${title2}`}
           width={210}
-          height={170}
+          height={0}
+          className="w-full h-auto object-cover"
         />
       </div>
     </div>

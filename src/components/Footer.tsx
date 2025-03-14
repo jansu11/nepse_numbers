@@ -10,7 +10,7 @@ const Footer = () => {
             src={"/logo-white.png"}
             alt="positivus logo"
             width={180}
-            height={29}
+            height={30}
           />
         </div>
         <nav className="flex flex-col lg:flex-row items-center gap-4 lg:gap-8 list-none">

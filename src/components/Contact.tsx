@@ -9,7 +9,7 @@ const Contact = () => {
           Contact Us
         </h2>
         <p className="max-w-xs">
-          Connect with Us: Let's Discuss Your Digital Marketing Needs
+          Connect with Us: Let&apos;s Discuss Your Digital Marketing Needs
         </p>
       </div>
       <ContactForm />

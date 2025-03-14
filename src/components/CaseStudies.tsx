@@ -27,7 +27,7 @@ const CaseStudies = () => {
               alt="arrow icon"
               width={15}
               height={15}
-              className="ml-2"
+              className="ml-2 w-auto h-auto"
             />{" "}
           </button>
         </article>
@@ -44,7 +44,7 @@ const CaseStudies = () => {
               alt="arrow icon"
               width={15}
               height={15}
-              className="ml-2"
+              className="ml-2 w-auto h-auto"
             />{" "}
           </button>
         </article>
@@ -61,7 +61,7 @@ const CaseStudies = () => {
               alt="arrow icon"
               width={15}
               height={15}
-              className="ml-2"
+              className="ml-2 w-auto h-auto"
             />{" "}
           </button>
         </article>

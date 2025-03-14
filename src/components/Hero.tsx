@@ -16,7 +16,9 @@ const Hero = () => {
               src={"/speaker.png"}
               alt="speaker image"
               width={560}
-              height={450}
+              height={0}
+              priority
+              className="lg:hidden w-auto h-auto"
             />
           </div>
           <p className="text-lg md:text-xl py-9 lg:max-w-lg">
@@ -33,50 +35,52 @@ const Hero = () => {
             src={"/speaker.png"}
             alt="speaker image"
             width={560}
-            height={450}
+            height={0}
+            priority
+            className="w-auto h-auto object-cover"
           />
         </div>
       </section>
       <section className="flex justify-center lg:justify-start flex-wrap gap-x-8 gap-y-3">
         <div>
           <Image
-            className="grayscale"
+            className="grayscale w-full h-auto"
             src={"/amazon.png"}
             alt="amazon logo"
             width={126}
-            height={48}
+            height={0}
           />
         </div>
         <div>
           <Image
-            className="grayscale"
+            className="grayscale w-full h-auto"
             src={"/dribble.png"}
             alt="dribble logo"
             width={126}
-            height={48}
+            height={0}
           />
         </div>
         <div>
           <Image
-            className="grayscale"
+            className="grayscale w-full h-auto"
             src={"/hubspot.png"}
             alt="hubspot logo"
             width={126}
-            height={48}
+            height={0}
           />
         </div>
         <div>
           <Image
-            className="grayscale"
+            className="grayscale w-full h-auto"
             src={"/notion.png"}
             alt="notion logo"
             width={126}
-            height={48}
+            height={0}
           />
         </div>
         <div>
           <Image
-            className="grayscale"
+            className="grayscale w-full h-auto"
             src={"/netflix.png"}
             alt="netflix logo"
             width={126}
@@ -85,11 +89,11 @@ const Hero = () => {
         </div>
         <div>
           <Image
-            className="grayscale"
+            className="grayscale w-full h-auto"
             src={"/zoom.png"}
             alt="zoom logo"
             width={126}
-            height={48}
+            height={0}
           />
         </div>
       </section>
