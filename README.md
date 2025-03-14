@@ -1,11 +1,11 @@
 # Positivus Landing Page
 
-This is a landing page project built using Next.js and Tailwind CSS and was inspired by a figma design I came across here -> [Link to the figma design](https://www.figma.com/community/file/1230604708032389430)
+The Positivus is a beautiful and functional landing page design created specifically for digital marketing agencies. With its clean and modern design, Positivus is the perfect template to showcase your agency's services and case studies to potential clients. It is built using Next.js for server-side rendering and Tailwind CSS for styling.This project was inspired by a figma design I came across here -> [Link to the figma design](https://www.figma.com/community/file/1230604708032389430)
 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Project Screenshot 🔳](#screenshot-)
+  - [Project Screenshot 🔳](#screenshot-)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
@@ -15,8 +15,6 @@ This is a landing page project built using Next.js and Tailwind CSS and was insp
 - [License](#license)
 
 ## Overview
-
-The Positivus is a beautiful and functional landing page design created specifically for digital marketing agencies. With its clean and modern design, Positivus is the perfect template to showcase your agency's services and case studies to potential clients. It is built using Next.js for server-side rendering and Tailwind CSS for styling.
 
 ### Project Screenshot 🔳
 
