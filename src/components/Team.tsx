@@ -29,47 +29,48 @@ const Team = () => {
 
 const TeamDetails: TeamCardProps[] = [
   {
-    imageUrl: "/john.png",
-    name: "John Smith",
-    position: "CEO and Founder",
+    imageUrl: "/brian.png",
+    name: "Sujan Bohora",
+    position: "Founder & Data Strategist",
     experience:
-      "10+ years of experience in digital marketing. Expertise in SEO, PPC, and content strategy",
-  },
-  {
-    imageUrl: "/jane.png",
-    name: "Jane Doe",
-    position: "Director of Operations",
-    experience:
-      "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
-  },
-  {
-    imageUrl: "/michael.png",
-    name: "Michael Brown",
-    position: "Senior SEO Specialist",
-    experience:
-      "5+ years of experience in SEO and content creation. Proficient in keyword research and on-page optimization",
+      "Built real-time NEPSE data pipelines and custom analytics platforms. Expertise in WebSocket APIs, Kafka, and financial datasets.",
   },
   {
     imageUrl: "/emily.png",
-    name: "Emily Johnson",
-    position: "PPC Manager",
+    name: "Safalta Khanal",
+    position: "Financial Analyst",
     experience:
-      "3+ years of experience in paid search advertising. Skilled in campaign management and performance analysis",
+      "5+ years in equity research and sector analysis. Specializes in identifying trends using historical and technical market data.",
   },
   {
     imageUrl: "/brian.png",
-    name: "Brian Williams",
-    position: "Social Media Specialist",
+    name: "Roshan Shrestha",
+    position: "Full Stack Developer",
     experience:
-      "4+ years of experience in social media marketing. Proficient in creating and scheduling content, analyzing metrics, and building engagement",
+      "Expert in building frontend dashboards and backend systems using React, Node.js, and MongoDB for market data visualization.",
   },
   {
-    imageUrl: "/sarah.png",
-    name: "John Smith",
-    position: "CEO and Founder",
+    imageUrl: "/brian.png",
+    name: "Priya Acharya",
+    position: "Client Success Manager",
     experience:
-      "2+ years of experience in writing and editing Skilled in creating compelling, SEO-optimized content for various industries",
+      "Handles client onboarding, custom data requests, and ensures smooth communication and timely delivery of datasets.",
+  },
+  {
+    imageUrl: "/brian.png",
+    name: "Niraj Thapa",
+    position: "Data Engineer",
+    experience:
+      "3+ years working with data pipelines, Spark, and automated extraction systems. Specializes in large-scale market data workflows.",
+  },
+  {
+    imageUrl: "/brian.png",
+    name: "Meena Karki",
+    position: "Data Visualization Expert",
+    experience:
+      "Designs intuitive charts, dashboards, and reports that make NEPSE data easy to interpret for traders and analysts.",
   },
 ];
+
 
 export default Team;

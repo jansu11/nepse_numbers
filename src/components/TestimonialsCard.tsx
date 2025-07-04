@@ -13,34 +13,35 @@ import "swiper/css/navigation";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
+
 const testimonials = [
   {
-    text: "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence.",
-    author: "John Smith",
-    role: "Marketing Director at XYZ Corp",
-  },
-
-  {
-    text: "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence.",
-    author: "John Smith",
-    role: "Marketing Director at XYZ Corp",
+    text: "I requested sector-wise comparison data for Hydropower and Finance — the dataset was clean, insightful, and helped me rebalance my portfolio confidently.",
+    author: "Aarav Shrestha",
+    role: "Retail Investor",
   },
   {
-    text: "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence.",
-    author: "John Smith",
-    role: "Marketing Director at XYZ Corp",
+    text: "Using their top gainers report, I was able to create a video that doubled my TikTok engagement. Super responsive and helpful team!",
+    author: "Nisha KC",
+    role: "Finance Content Creator",
   },
   {
-    text: "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence.",
-    author: "John Smith",
-    role: "Marketing Director at XYZ Corp",
+    text: "Their custom data delivery saved me hours of manual scraping. The JSON format integrated easily with my dashboard app.",
+    author: "Ravi Basnet",
+    role: "Freelance Data Analyst",
   },
   {
-    text: "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence.",
-    author: "John Smith",
-    role: "Marketing Director at XYZ Corp",
+    text: "The NEPSE data I received was exactly what I needed for my thesis research. Delivered on time and with excellent support.",
+    author: "Sandhya Regmi",
+    role: "Master's Student at TU",
+  },
+  {
+    text: "Great service! I got historical order book data that helped me build and test a trading strategy. Highly recommend for any serious trader.",
+    author: "Bikram Khadka",
+    role: "Active Trader",
   },
 ];
+
 
 const TestimonialsCard = () => {
   return (

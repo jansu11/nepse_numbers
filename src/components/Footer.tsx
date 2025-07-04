@@ -7,7 +7,7 @@ const Footer = () => {
       <section className="flex flex-col lg:flex-row gap-12 justify-between items-center lg:items-end">
         <div>
           <Image
-            src={"/logo-white.png"}
+            src={"/logo-white.pn"}
             alt="positivus logo"
             width={180}
             height={30}
@@ -84,11 +84,11 @@ const Footer = () => {
           <h3 className="text-black font-bold inline mb-10 lg:mb-0">
             <span className="bg-green px-1 py-0.5 rounded-lg">Contact us:</span>
           </h3>
-          <p>Email: info@positivus.com </p>
-          <p>Phone: 555-567-8901</p>
+          <p>Email: info@nepsenumbers.com </p>
+          <p>Phone: 977-9800817476</p>
           <p>
-            Address: 1234 Main St <br />
-            Moonstone City, Stardust State 12345
+            Address: Mahalaxmi-03,Imadole <br />
+            Lalitpur, 44600 
           </p>
         </div>
         <div className="bg-[#292A32] px-10 py-14 rounded-[14px]">
@@ -121,7 +121,7 @@ const Footer = () => {
       <hr className="mt-10 lg:mt-[50px] text-gray" />
       <div className="mt-10 lg:mt-[50px] flex flex-col lg:flex-row items-center lg:items-end gap-4 lg:gap-8  text-white">
         <p className="text-white">
-          &copy; {new Date().getFullYear()} Positivus. All Rights Reserved.
+          &copy; {new Date().getFullYear()} NepseNumbers. All Rights Reserved.
         </p>
 
         <a

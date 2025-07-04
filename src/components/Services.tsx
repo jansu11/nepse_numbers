@@ -8,55 +8,46 @@ const Services = () => {
       <div className="flex flex-col sm:flex-row text-center sm:text-start items-center gap-5 md:gap-10">
         <h2 className="bg-green text-3xl font-bold p-2 rounded-md">Services</h2>
         <p className="max-w-xl">
-          At our digital marketing agency, we offer a range of services to help
-          businesses grow and succeed online. These services include:
+          At Nepse Numbers, we provide specialized data services tailored for investors, analysts, and creators in the NEPSE market. Our offerings include:
         </p>
       </div>
       {/* Crads Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 pt-10 lg:pt-16 place-items-center">
         <Card
-          title1="Search engine"
-          title2="optimization"
+          title1="Custom Data"
+          title2=" NEPSE/Economy"
           titleBgColor="bg-green"
           bgColor="bg-grey"
           imgUrl="/seo.png"
         />
         <Card
-          title1="Pay-per-click"
-          title2="advertising"
+          title1="Performance Reports"
+          title2="Sector & Index"
           titleBgColor="bg-white"
           bgColor="bg-green"
           imgUrl="/pay.png"
         />
         <Card
-          title1="Social Media"
-          title2="Marketing"
+          title1="Order Book"
+          title2="Data"
           titleBgColor="bg-white"
           bgColor="bg-dark"
           imgUrl="/social.png"
           iconColor="white"
         />
         <Card
-          title1="Email"
-          title2="Marketing"
+          title1="Company"
+          title2="Historical Data"
           titleBgColor="bg-green"
           bgColor="bg-grey"
           imgUrl="/email-marketing.png"
         />
         <Card
-          title1="Content"
-          title2="Creation"
+          title1="Visual Analytics"
+          title2="Charts and Graphs"
           titleBgColor="bg-white"
           bgColor="bg-green"
           imgUrl="/content-creation.png"
-        />
-        <Card
-          title1="Analytics and"
-          title2="Tracking"
-          titleBgColor="bg-green"
-          bgColor="bg-dark"
-          imgUrl="/analytics.png"
-          iconColor="white"
         />
       </div>
 
@@ -64,14 +55,13 @@ const Services = () => {
       <div className="relative flex justify-between items-center px-8 py-12 md:p-16 rounded-[45px] bg-gray mt-24 lg:mt-36">
         <div className="max-w-md flex flex-col gap-4">
           <h2 className="font-medium text-3xl">
-            Let&apos;s make things happen
+            Use NEPSE Data Like a Pro
           </h2>
           <p>
-            Contact us today to learn more about how our digital marketing
-            services can help your business grow and succeed online.
+            Explore our latest blog posts where we break down data-driven strategies, sector trends, and real-world use cases — all designed to help you turn NEPSE numbers into smart insights.
           </p>
           <button className="bg-dark py-5 px-5 md:px-9 text-gray rounded-2xl md:self-start">
-            Get your free proposal
+            Blogs
           </button>
         </div>
         <div>

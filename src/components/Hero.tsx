@@ -9,7 +9,7 @@ const Hero = () => {
       <section className="flex justify-between py-12 pb-10 lg:py-16">
         <article className="flex flex-col items-center md:items-start">
           <h1 className="font-medium text-4xl/normal md:text-6xl/normal lg:max-w-xl">
-            Navigating the digital landscape for success
+            “Get Accurate, Custom NEPSE Market Data – Instantly.”
           </h1>
           <div className="lg:hidden mt-9 lg:mt-0">
             <Image
@@ -22,12 +22,10 @@ const Hero = () => {
             />
           </div>
           <p className="text-lg md:text-xl py-9 lg:max-w-lg">
-            Our digital marketing agency helps businesses grow and succeed
-            online through a range of services including SEO, PPC, social media
-            marketing, and content creation.
+            “Track sector rotation, stock trends, and real-time market movements. Data built for traders, analysts, and creators.”
           </p>
           <button className="w-full lg:w-auto lg:self-start px-9 py-4 bg-black text-gray rounded-xl">
-            Book a consultation
+            Request Your Data
           </button>
         </article>
         <div className="hidden lg:block">

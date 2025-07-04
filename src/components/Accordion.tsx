@@ -16,7 +16,7 @@ export default function Accordion() {
           Our Working Process
         </h2>
         <p className="max-w-xs">
-          Step-by-Step Guide to Achieving Your Business Goals
+          Step-by-step guide to getting the NEPSE data you need — fast and accurate.
         </p>
       </div>
       <div
@@ -34,7 +34,7 @@ export default function Accordion() {
             </span>{" "}
             <span className="text-xl sm:text-3xl self-center">
               {" "}
-              Consultation
+              Reach Out
             </span>
           </h3>
           <div className="flex justify-center items-center text-2xl border rounded-full w-10 h-10 bg-white">
@@ -44,9 +44,8 @@ export default function Accordion() {
         {activeSection === 1 && (
           <div className="py-7 border-t">
             <p>
-              Discuss your business goals and objectives, target audience, and
-              current marketing efforts to tailor our services to meet your
-              specific requirements.
+              Contact us via email or our request form.
+              Tell us what kind of NEPSE data you need — sectors, specific stocks, timeframe, indicators, formats (CSV, Excel, JSON), etc.
             </p>
           </div>
         )}
@@ -66,7 +65,7 @@ export default function Accordion() {
               02
             </span>{" "}
             <span className="text-xl sm:text-3xl self-center">
-              Research and Strategy Development
+              Data Planning
             </span>
           </h3>
           <div className="flex justify-center items-center text-2xl border rounded-full w-10 h-10 bg-white">
@@ -76,9 +75,7 @@ export default function Accordion() {
         {activeSection === 2 && (
           <div className="py-7 border-t">
             <p>
-              Conduct thorough market research to understand your target
-              audience and develop a strategic plan to achieve your business
-              objectives.
+              🔍 Our team reviews your request and sends a quote with plan details, estimated delivery time, and available data samples.
             </p>
           </div>
         )}
@@ -98,7 +95,7 @@ export default function Accordion() {
               03
             </span>{" "}
             <span className="text-xl sm:text-3xl self-center">
-              Implementation
+              Data Delivery
             </span>
           </h3>
           <div className="flex justify-center items-center text-2xl border rounded-full w-10 h-10 bg-white">
@@ -108,8 +105,7 @@ export default function Accordion() {
         {activeSection === 3 && (
           <div className="py-7 border-t">
             <p>
-              Execute the strategic plan by implementing marketing campaigns,
-              content creation, and other necessary actions.
+              Once confirmed, we generate and deliver the data in your preferred format — clean, structured, and ready to use.
             </p>
           </div>
         )}
@@ -129,7 +125,7 @@ export default function Accordion() {
               04
             </span>{" "}
             <span className="text-xl sm:text-3xl self-center">
-              Monitoring and Optimization
+              Usage Guidance
             </span>
           </h3>
 
@@ -140,8 +136,7 @@ export default function Accordion() {
         {activeSection === 4 && (
           <div className="py-7 border-t">
             <p>
-              Continuously monitor the performance of your marketing efforts and
-              make data-driven optimizations to improve results.
+              We also provide a simple guide or short video on how to analyze and visualize the data effectively.
             </p>
           </div>
         )}
@@ -161,7 +156,7 @@ export default function Accordion() {
               05
             </span>{" "}
             <span className="text-xl sm:text-3xl self-center">
-              Reporting and Communication
+              Support & Customization
             </span>
           </h3>
           <div className="flex justify-center items-center text-2xl border rounded-full w-10 h-10 bg-white">
@@ -171,9 +166,7 @@ export default function Accordion() {
         {activeSection === 5 && (
           <div className="py-7 border-t">
             <p>
-              Provide regular reports and communicate insights to keep you
-              informed about the progress and success of your marketing
-              initiatives.
+              Need more? We’re here to help with adjustments, follow-ups, or extended tracking reports.
             </p>
           </div>
         )}
@@ -203,8 +196,7 @@ export default function Accordion() {
         {activeSection === 6 && (
           <div className="py-7 border-t">
             <p>
-              Stay ahead of the curve by continuously refining and improving
-              your marketing strategies to adapt to changing market conditions.
+              Stay ahead of the curve by continuously refining your analysis strategies with accurate, up-to-date NEPSE data — adapt faster, invest smarter.
             </p>
           </div>
         )}
